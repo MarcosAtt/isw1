@@ -1,13 +1,13 @@
-!classDefinition: #Bill category: #ejercicio2!
+!classDefinition: #Bill category: '2 - Zombie Bill'!
 DenotativeObject subclass: #Bill
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'ejercicio2'!
+	category: '2 - Zombie Bill'!
 
 "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- "!
 
-!classDefinition: 'Bill class' category: #ejercicio2!
+!classDefinition: 'Bill class' category: '2 - Zombie Bill'!
 Bill class
 	instanceVariableNames: 'energia kilometrosRecorridos kilosDeCerebrosComidos'!
 
@@ -32,7 +32,7 @@ initialize
 	kilometrosRecorridos := 0.
 	kilosDeCerebrosComidos := 0.! !
 
-!Bill class methodsFor: '--** private fileout/in **--' stamp: 'MA 3/18/2024 21:57:47'!
+!Bill class methodsFor: '--** private fileout/in **--' stamp: 'MA 3/21/2024 11:40:21'!
 initializeCollaboratorsFromFile
 	"Auto generated method for loading purposes - Do not modify it"
 
@@ -41,7 +41,7 @@ initializeCollaboratorsFromFile
 	kilosDeCerebrosComidos := 0.! !
 
 
-!Bill class methodsFor: '--** private fileout/in **--' stamp: 'MA 3/18/2024 21:57:47'!
+!Bill class methodsFor: '--** private fileout/in **--' stamp: 'MA 3/21/2024 11:40:21'!
 initializeCollaboratorsFromFile
 	"Auto generated method for loading purposes - Do not modify it"
 
